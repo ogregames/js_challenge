@@ -27,7 +27,7 @@ function mergeTwoLinkedLists(l1, l2) {
       val2 = val2.next;
     }
   }
-  console.log(merged);
+  return merged;
 } 
 
  // test
