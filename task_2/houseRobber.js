@@ -51,6 +51,14 @@ nums = [2, 1, 3, 6, 100, 1, 2, 1, 1, 8, 4, 1];
 // => 116
 console.log(houseRobber(nums));
 
+nums = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ];
+// => 10
+console.log(houseRobber(nums));
+
+nums = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ];
+// => 12
+console.log(houseRobber(nums));
+
 nums = [2, 1, 3, 6, 100, 300, 500, 900, 1500, 2500, 5000, 10000];
 // => 13708
 console.log(houseRobber(nums));
